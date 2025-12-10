@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our 9th Monthiversary</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="9 monthiversary letter.css" />
+  </head>
+  <body>
+    <h1 id="main-title">9 Months of US</h1>
+    <p id="instruction-text">Click the envelope to open your letter!</p>
+    <div class="envlope-wrapper">
+      <div id="envelope" class="close">
+        <div class="front flap"></div>
+        <div class="front pocket"></div>
+        
+        <div class="letter">
+          <div class="letter-content">
+            <p class="greeting">To: Sadie</p>
+            <p class="body-text">
+                Qalbi tieghi,<br>
+                I hope you enjoy this little gesture. To honour our deal, I only made this website for you which includes a letter but in a more creative way!
+            </p>
+            <button id="read-more-btn">Read the full letter...</button>
+          </div>
+        </div>
+        
+        <div class="hearts">
+          <div class="heart a1"></div>
+          <div class="heart a2"></div>
+          <div class="heart a3"></div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="reset">
+      <button id="open">Open</button>
+      <button id="reset">Close</button>
+    </div>
+
+    <div id="full-letter-container" class="hidden">
+        <div class="paper">
+            <h2>My little baby,</h2>
+            <p>
+                Uhmm there is a lot actually that I would like to say... I will start with Merry Christmas my love! This would be our first Christmas together and I am so excited to spend it with you.
+            </p>
+            <p>
+                This time last year, I had promised myself that 2025 would be my year. I had given up on trying to chase anyone and I just wanted to focus on myself and my career. And tbh I said that I will focus on trading and on finding more ways to make money, and I thought that it's the only thing that mattered but I was wrong.
+            </p>
+            <p>
+                This year, 2025, I was very successful. I didn't make money, I didn't improve my career as such, but I got the girl that I love, the girl I had always wanted, the girl I chased for two years, the girl that makes me the happiest, the girl with the most beautiful eyes in the world. I got you! Even though sometimes it might seem to  you that I stopped trying, I promise you that I didn't and I would never stop. I want to build a great life for us in the future and I won't stop trying. I am giving you my word sade, I will do everything in my power to make your dreams come true.
+            </p>
+            <p>
+              Thank you for 9 months of happiness, fun, support, emotion, and love. You've become the safest place in my world, and I can't wait to spend every day, every month, every year, and every Christmas with you!
+            </p>
+            <p>I love you endlessly...</p>
+            <p class="signature">- Yours, Forever.  Moody xxx</p>
+            <button id="close-letter-btn">Put back in envelope</button>
+        </div>
+    </div>
+    
+    <audio id="bg-music" loop>
+        <source src="You Stole The Show.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="9 monthiversary letter.js"></script>
+  </body>
+</html>
